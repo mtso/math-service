@@ -1,10 +1,9 @@
 {
-  "//1": "describes your app and its dependencies",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
-  "name": "my-glitch-app",
+  "//1": "Simple API that returns a math operation",
+  "//2": "executed on the parts of URL path.",
+  "name": "math-service",
   "version": "0.0.1",
-  "description": "What am I about?",
+  "description": "Simple API that returns a math operation executed on the parts of URL path.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -18,12 +17,7 @@
     "node": "8.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/welcome-project"
+    "url": "https://github.com/mtso/math-service"
   },
-  "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+  "license": "MIT"
 }
